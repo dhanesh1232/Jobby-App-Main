@@ -1,0 +1,88 @@
+.login-page-container {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  width: 400px;
+  height: 400px;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  border-radius: 12px;
+}
+.login-logo {
+  height: 65px;
+  width: 200px;
+  align-self: center;
+  margin: 25px;
+}
+.my-form {
+  height: 75%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.label-text {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.input-holder {
+  width: 100%;
+  height: 2.3rem;
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  border-radius: 3px;
+  padding-left: 15px;
+  font-size: 18px;
+  color: #f1f5f9;
+}
+.login-btn {
+  margin-top: 20px;
+  height: 2.4rem;
+  font-weight: 500;
+  color: #ffffff;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  background-color: #6366f1;
+  font-size: 16px;
+  cursor: pointer;
+}
+.error-message {
+  color: #ff0b37;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .login-form {
+    width: 300px;
+    height: 380px;
+    padding: 10px;
+  }
+  .login-logo {
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+  }
+  .my-form {
+    margin-top: 0px;
+  }
+  .label-text {
+    font-size: 12px;
+  }
+  .error-message {
+    color: #ff0b37;
+    font-size: 12px;
+    font-weight: normal;
+  }
+}

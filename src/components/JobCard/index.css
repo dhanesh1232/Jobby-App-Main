@@ -1,0 +1,128 @@
+.nav-job-link {
+  width: 100%;
+  flex-grow: 1;
+  min-height: 440px;
+  background-color: #202020;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.job-card-top {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.job-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  height: 50%;
+}
+.company-logo {
+  height: 100px;
+  width: 100px;
+}
+.company-info-header {
+  padding-top: 5px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.company-title {
+  font-size: 24px;
+  color: #ffffff;
+}
+.company-rating {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10xp;
+  font-weight: 500;
+}
+.star-icon {
+  font-size: 20px;
+  color: #fbbf24;
+}
+.rating-star {
+  font-size: 20px;
+  color: #ffffff;
+}
+.job-card-footer {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.location-and-employment-type {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.location-icon {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.location-def {
+  font-size: 18px;
+  color: #ffffff;
+}
+.emp-info {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.emp {
+  font-size: 25px;
+  color: #ffffff;
+}
+.emp-def {
+  font-size: 18px;
+}
+.separator-job {
+  border: 1px solid #cbd5e1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.salary-pack {
+  font-size: 22px;
+  color: #ffffff;
+}
+.job-description-section {
+  width: 100%;
+}
+.job-description-section .def-head {
+  font-size: 30px;
+  color: #ffffff;
+}
+.job-description-section p {
+  font-size: 18px;
+  color: #f1f5f9;
+}
+@media screen and (max-width: 768px) {
+  .nav-job-link {
+    height: 480px;
+  }
+  .location-and-employment-type {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .job-description-section p {
+    font-size: 14px;
+  }
+}

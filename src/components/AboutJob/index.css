@@ -1,0 +1,119 @@
+.about-card-company {
+  background-color: #202020;
+  width: 100%;
+  border-radius: 12px;
+  padding: 15px;
+}
+.about-top-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0px;
+}
+.company-details-job {
+  height: 100px;
+  width: 100px;
+}
+.about-company-job-head {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.job-title-company {
+  font-size: 25px;
+}
+
+.about-star-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.star-icon-about {
+  font-size: 25px;
+  color: #fbbf24;
+}
+.rating-about {
+  font-size: 25px;
+}
+.location-and-employment-type-about {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+}
+.separator-job-about {
+  width: 100%;
+  border: 1px solid #b6c5ff;
+}
+.anchor-link {
+  color: #4f46e5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+}
+.description-header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-job-description {
+  color: #f8fafc;
+  font-size: 24px;
+}
+.about-skill-head {
+  font-size: 30px;
+  font-weight: 500;
+}
+.list-skills-about {
+  width: 100%;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25%;
+}
+.list-skills-about li {
+  display: flex;
+  gap: 15px;
+  margin: 15px;
+}
+.skill-name {
+  font-size: 20px;
+}
+.life-company-about {
+  flex-grow: 1;
+}
+.life-company-about h1 {
+  font-size: 28px;
+}
+.life-company-about div {
+  display: flex;
+}
+.life-company-about div p {
+  font-size: 25px;
+}
+.lift-at-image {
+  flex-grow: 1;
+  margin: 15px;
+}
+@media screen and (max-width: 768px) {
+  .location-and-employment-type-about {
+    width: 40%;
+  }
+  .about-job-description {
+    font-size: 16px;
+  }
+  .list-skills-about {
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  .life-company-about div {
+    display: flex;
+    flex-direction: column;
+  }
+}

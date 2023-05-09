@@ -1,0 +1,39 @@
+.job-details-page {
+  background-color: #000000;
+  flex-grow: 1;
+  padding: 40px;
+  min-height: 89vh;
+}
+.loader-container-job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.job-details-page-home {
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.details-card-job {
+  width: 100%;
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .details-card-job {
+    padding: 5px;
+  }
+}
+/*Failure View Section */
+.job-failure-using-id {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img-view {
+  height: 75%;
+  width: 75%;
+}

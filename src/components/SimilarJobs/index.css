@@ -1,0 +1,75 @@
+.similar-jabs-view {
+  width: 100%;
+  padding-left: 0px;
+}
+.similar-jobs-heading {
+  font-size: 36px;
+  font-weight: 500;
+}
+.similar-jobs-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.similar-card {
+  padding: 30px;
+  width: 40%;
+  background-color: #202020;
+  border-radius: 8px;
+  margin: 15px;
+}
+.similar-job-view {
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+.similar-job-title {
+  padding: 15px;
+}
+.similar-job-head {
+  font-size: 28px;
+  font-weight: 500;
+}
+.similar-image-view {
+  width: 100px;
+  height: 100px;
+  flex-wrap: 1;
+}
+.rating-view-similar {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  gap: 10px;
+}
+.similar-job-description {
+  font-size: 18px;
+}
+.about-similar-job {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+}
+.viewer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .similar-jobs-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .similar-card {
+    width: 75%;
+  }
+  .similar-image-view {
+    height: 75px;
+    width: 75px;
+  }
+  .similar-job-head {
+    font-size: 22px;
+  }
+}
